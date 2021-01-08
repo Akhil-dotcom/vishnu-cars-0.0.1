@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.mobile__courses{
+    padding: 6vw 0;
+    width: 100vw;
+    overflow-x: hidden;
+    .mobile__courses__head{
+        font-size: 7vw;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        padding: 3vw 0 0 3vw;
+        color: #3c3c3d;
+    }
+    .course__pricing{
+        padding: 2vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .course{
+            width: 90vw;
+            margin-top: 3vw;
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 3vw;
+            border: 2px solid rgb(135, 135, 230);
+            padding: 4vw 3vw;
+            box-shadow: 0 3px 4px rgba(83, 85, 238, 0.3);
+            .left{
+                flex: .5;
+                padding: 1vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 90%;
+                    width: 90%;
+                    margin: 1vw;
+                }
+            }
+            .middle{
+                flex: 3;
+                padding-left: 2vw;
+                .middle__head{
+                    font-family: 'Lato', sans-serif;
+                    font-size: 5vw;
+                    font-weight: 700;
+                    color: #3c3c3d;
+                }
+                .middle__price{
+                    font-family: 'Lato', sans-serif;
+                    margin-top: 2vw;
+                    background-color: #bae3f8;
+                    color: #1f93ce;
+                    width: 100px;
+                    padding: .5vw;
+                    text-align: center;
+                    border-radius: 3vw;
+                }
+            }
+            .right{
+                flex: .5;
+                .icon__btn{
+                    background-color: white;
+                    box-shadow: 0 3px 4px rgba(83, 85, 238, 0.3);
+                }
+            }
+        }
+    }
+}

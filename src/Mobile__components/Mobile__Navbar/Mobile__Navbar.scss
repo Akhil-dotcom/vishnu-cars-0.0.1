@@ -1,0 +1,15 @@
+.mobile__navbar{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1vw 4vw 0 0;
+    background-color: #ffffff;
+    .menu{
+        background-color: #ffffff;
+        box-shadow: 0 3px 4px rgba(83, 85, 238, 0.3);
+        .icon{
+            color: #000000;
+        }
+    }
+} 

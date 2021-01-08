@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.mobile__home{
+    height: auto;
+    .home__view{
+        .home__view__content{
+            padding: 3.5vw;
+            .logo{
+                margin-bottom: 6vw;
+                img{
+                    height: 15vw;
+                }
+            }
+            .head__top{
+                font-family: 'Lato', sans-serif;
+                font-size: 8vw;
+                padding-bottom: 2vw;
+                color: #3c3c3d;
+            }
+            .head__bottom{
+                font-family: 'Lato', sans-serif;
+                font-size: 8vw;
+                font-weight: 700;
+                color: #3c3c3d;
+            }
+            .body{
+                font-family: 'Lato', sans-serif;
+                padding-top: 4vw;
+                font-weight: 400;
+                font-size: 4vw;
+                color: #3c3c3d;
+            }
+            .btn{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                background-color: #7cc4e9;
+                margin-top: 8vw;
+                color: #ffffff;
+                text-transform: none;
+                padding: 4vw 3vw;
+                width: 150px;
+                border-radius: 2vw;
+                font-size: 3.5vw;
+                display: flex;
+                align-items: center;
+                box-shadow: 0 3px 4px rgba(83, 85, 238, 0.3);
+            }
+        }
+    }
+    .home__image{
+        width: 100vw;
+        background-color: blueviolet;
+        height: 80vw;
+        margin-top: 3vw;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
